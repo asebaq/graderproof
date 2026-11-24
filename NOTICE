@@ -1,0 +1,6 @@
+Graderproof licensing
+
+- `method/` — the `graderproof` package, `scripts/gate.py`, and tests — is MIT.
+  See `method/LICENSE`.
+- The rest of this repository — docs, reports, findings, scorecard operation,
+  and the "Graderproof Audited" mark — is proprietary. See `LICENSE`.

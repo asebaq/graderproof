@@ -1,0 +1,13 @@
+# python
+.venv/
+__pycache__/
+*.pyc
+.uv/
+uv.lock
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+
+# os
+.DS_Store
