@@ -12,6 +12,7 @@ RL environments train agents inside simulated workplaces — fake email, account
 | `SCORECARD.md` | Public robustness scorecard and the "Graderproof Audited" criteria |
 | `QA-GATE-PATTERN.md` | Clean-room design note for the batch gate |
 | `examples/toy-audit.md` | Reproducible synthetic proof: broken grader → exploit 1.0; fixed → 0.0 |
+| `examples/artex-judge-audit.md` | Case study: a benchmark's LLM judge audited, fixed by the maintainer 13 hours after the report, and re-run on the fixed code |
 
 ## Quickstart
 
@@ -35,7 +36,7 @@ Coordinated, not surprise-public: notify the maintainer, offer the patch, defaul
 
 ## Scope
 
-This repository publishes the method and a synthetic proof. It does not contain client artifacts or private findings. Real case studies are published only after coordinated disclosure.
+This repository publishes the method, a synthetic proof, and case studies. It does not contain client artifacts or private findings. Real case studies are published only after coordinated disclosure: the ARTEX findings and fix are public in that project's own issue and pull request, and the re-run was done after the fix was merged.
 
 ## License
 
